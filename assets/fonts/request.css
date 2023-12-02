@@ -1,0 +1,72 @@
+* { 
+    -webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    -ms-box-sizing:border-box; 
+    -o-box-sizing:border-box; 
+    box-sizing:border-box; 
+}
+
+html { 
+    width: 100%; 
+    height:100%; 
+    overflow:hidden; 
+}
+
+body { 
+    width: 100%;
+    height:100%;
+    font-family: 'Open Sans', sans-serif;
+    background: #c5ae00;
+    background-image: linear-gradient(rgba(131, 85, 10, 0), rgba(105, 241, 42, 0)), linear-gradient(100deg, #b5c255, rgb(208, 211, 38), 253, 118));
+}
+
+.login { 
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    text-align:center;
+    margin: -150px 0 0 -150px;
+    width:600px;
+    height: 210px;
+    background-color: #041306; /* Cor do cartão */
+    padding: 20px; /* Espaçamento interno do cartão */
+    border-radius: 10px; /* Bordas arredondadas do cartão */
+}
+
+.login h1 { 
+    color:#ffffff; 
+    text-shadow: 0 0 10px rgba(0,0,0,0.3); 
+    letter-spacing:2px; 
+    width: 100%; /* Adicione esta linha para aumentar a largura do título */
+}
+
+input { 
+    width: 100%;
+    margin-bottom: 20px;
+    background: rgb(200, 184, 184);
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #213b65;
+    border-radius: 6px;
+    transition: .5s;
+}
+
+input:focus { 
+    background-color: rgb(142, 141, 141); 
+}
+
+.btn-voltar {
+    
+    margin-top: 500px;
+    width: 300px; 
+    background: rgb(77, 136, 192);
+}
+
+.btn-next  {
+     
+    margin-top: 500px;
+    width: 300px; 
+    background: rgb(26, 124, 87);
+}
